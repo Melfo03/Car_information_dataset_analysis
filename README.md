@@ -61,3 +61,13 @@ EDA, araç verilerini keşfederek aşağıdaki soruları yanıtlamayı içeriyor
   
   ![](image/weight_consumption_relation.png.png) 
   
+### Sonuç
+1. **Motor Hacmi ve Yakıt Tüketimi İlişkisi:** Motor hacmi arttıkça, genel olarak yakıt tüketiminin de arttığı görülmektedir. Daha büyük motor hacimlerine sahip araçların daha fazla yakıt tükettiği söylenebilir.
+2. **Beygir Gücü ve Yakıt Tüketimi İlişkisi:** Beygir gücü arttıkça, yakıt tüketiminin de arttığı gözlemlenmektedir. Daha güçlü motorlara sahip araçların daha fazla yakıt tükettiği anlaşılmaktadır.
+3. **Ağırlık ve Yakıt Tüketimi İlişkisi:** Araç ağırlığı arttıkça, yakıt tüketiminin de arttığı görülmektedir. Daha ağır araçların daha fazla yakıt tükettiği sonucuna varılabilir.
+4. **Menşe Ülkelere Göre Özellikler:** Menşe ülkelere göre incelendiğinde, ABD menşeli araçların daha yüksek motor hacmi, beygir gücü ve ağırlığa sahip olduğu, buna bağlı olarak da daha yüksek yakıt tükettiği gözlemlenmektedir. Avrupa ve Japonya menşeli araçlar ise daha düşük motor hacmi, beygir gücü ve ağırlığa sahip olup, daha düşük yakıt tüketimi göstermektedir.
+5. **Markalar Arası Farklılıklar:** Marka bazında incelendiğinde, bazı markaların (örneğin Chevrolet, Ford, Pontiac) diğer markalara göre daha yüksek motor hacmi, beygir gücü ve ağırlığa sahip olduğu, dolayısıyla daha yüksek yakıt tükettiği görülmektedir.
+6. **Yıllar İtibariyle Değişim:** Yıllar içerisinde, araçların beygir gücü ve yakıt tüketimlerinde azalma gözlemlenmektedir. Bu, teknolojik gelişmeler ve emisyon standartlarındaki iyileşmeler sayesinde daha verimli motorların üretilmesi dışında baz aldığımız 1970-1982 yılları arasındaki petrol krizleride beygir gücü ve yakıt tüketimlerinin düşmesi konusunda etkin olmuştur
+7. **Korelasyon Analizi:** Korelasyon matrisi incelendiğinde, motor hacmi, beygir gücü ve ağırlık gibi özelliklerin birbiriyle yüksek oranda ilişkili olduğu, ayrıca bu özelliklerin yakıt tüketimiyle de yüksek korelasyona sahip olduğu görülmektedir.
+   
+**Özetle**, veri setindeki grafiklerin analizi sonucunda, motor hacmi, beygir gücü ve ağırlık gibi araç özelliklerinin yakıt tüketimi üzerinde önemli bir etkiye sahip olduğu, ayrıca menşe ülke ve marka bazında da farklılıklar olduğu ortaya çıkmaktadır.
