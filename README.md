@@ -1,73 +1,76 @@
 # **Car Information Analysis**
-### **Proje Genel Bakış**
+### **Project Overview**
 ---
-**Automobile.csv** verisini analiz ederek veri setimizdeki yakıt tüketimi, yıl, ağırlık, marka gibi değişkenler hakkında bilgiler edinip çıkarımların elde edilmesi
+By analyzing the **Automobile.csv** dataset, insights and conclusions are drawn about variables such as fuel consumption, year, weight, and brand.
 
-### Veri Kaynağı
-Analiz için kullandığımız veri seti **"Automobile.csv"** dosyasıdır. Bu veri seti çeşitli araçlara  ait **beygir gücü**, **ağırlık**, **yakıt tüketimi**, **motor hacmi**, **hızlanma**, **silindir**, **menşei**, **üretim yılları** verilerini içermektedir.
-- [**Veri setinin Kaggle sayfası**](https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset)
-### Veri Temizliği ve Hazırlığı
-1. Veri yüklenip incelediğinde ilk olarak analizi çeşitlendirmek amacıyla name değişkeninden yeni bir **"brand"** değişkeni oluşturuldu. Bu sayede araçların markaları baz alınarak çeşitli çıkarımların yapılabilmesi sağlandı.
-2. **"mpg"** değişkenindeki değerler metrik bir değer olan **"100km/l"** değerine çevirildi. Değişekenin ismi **"fuel_efficiency"** olarak değiştirildi.
-3. **"displacment"** değişkenindeki değerler metrik bir değer olan **"litre"** değerine çevirildi. Değişkenin ismi **"displacement(L)"** olarak değiştirildi.
-4. **"weight"** değişkenindeki değerler metrik bir değer olan **"kg"** değerine çevirildi. Değişkenin ismi **"weight(kg)"** olarak değiştirildi.
-5. **"brand"** değişkenindeki **"toyouta, maxda, chevroelt, mercedes, vokswagen, vw"** gibi yanlış değerler değiştirildi.
-### Keşifsel Veri Analizi (EDA)
-EDA, araç verilerini keşfederek aşağıdaki soruları yanıtlamayı içeriyordu:
-1. Veri setindeki araçların markalara göre yüzdelik dağılışları nasıldır?
-2. Yıllara göre ortalama yakıt tüketim değerleri nasıl değişmiştir?
-3. Motor hacminin yakıt tüketimi üzerindeki etkisi nasıldır?
-4. Markalara göre ortalama yakıt tüketim değerleri nedir?
-5. Beygir gücünün ortalama yakıt tüketimi üzerindeki etkisi nedir?
-6. Markalara göre ortalama beygir gücü değerleri nedir?
-7. Yıllara göre beygir gücü değerleri nasıl değişmiştir?
-8. Menşei ülkelere göre ortalama yakıt tüketim değerleri nedir?
-9. Menşei ülkelere göre ortalama motor hacim değerleri nedir?
-10. Ağırlığın yakıt tüketimi üzerindeki etkisi nedir?
-### Sonuçlar/Bulgular
-#### Tanımlayıcı İstatistikler
+### Data Source
+The dataset used for this analysis is the **"Automobile.csv"** file. This dataset contains information on various cars, including **horsepower**, **weight**, **fuel consumption**, **engine displacement**, **acceleration**, **cylinders**, **origin**, and **production years**.
+- [**Dataset's Kaggle page**](https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset)
+
+### Data Cleaning and Preparation
+1. After loading and inspecting the data, a new **"brand"** variable was created from the **name** variable to enhance the analysis. This allowed for more meaningful insights based on car brands.
+2. The values in the **"mpg"** variable were converted into the metric value of **"100km/l"**. The variable name was changed to **"fuel_efficiency"**.
+3. The values in the **"displacement"** variable were converted into the metric value of **"liters"**. The variable name was changed to **"displacement(L)"**.
+4. The values in the **"weight"** variable were converted into the metric value of **"kg"**. The variable name was changed to **"weight(kg)"**.
+5. Incorrect values in the **"brand"** variable such as **"toyouta, maxda, chevroelt, mercedes, vokswagen, vw"** were corrected.
+
+### Exploratory Data Analysis (EDA)
+EDA involved exploring the car data to answer the following questions:
+1. What is the percentage distribution of car brands in the dataset?
+2. How have average fuel consumption values changed over the years?
+3. What is the effect of engine displacement on fuel consumption?
+4. What are the average fuel consumption values for each car brand?
+5. What is the effect of horsepower on average fuel consumption?
+6. What are the average horsepower values for each car brand?
+7. How has horsepower changed over the years?
+8. What are the average fuel consumption values by country of origin?
+9. What are the average engine displacement values by country of origin?
+10. What is the effect of weight on fuel consumption?
+
+### Results/Findings
+#### Descriptive Statistics
  ![](image/desc.png) 
-#### Korelasyonlar
+#### Correlations
  ![](image/corr.png) 
-#### Bulgular
-- Aşağıdaki grafik incelendiğinde, veri setindeki araçların çoğunluğu **Ford**markadır.
+#### Findings
+- Upon reviewing the chart below, it can be seen that the majority of cars in the dataset are of the **Ford** brand.
   ![](image/brand_piee.png) 
 
-- Aşağıdaki grafik incelendiğinde, yakıt tüketim değerleri yıllar içerisinde düşüş eğilimi göstermiştir.
+- The chart below shows that fuel consumption values have decreased over the years.
   
   ![](image/consumption_by_year.png) 
-- Aşağıdaki grafik ve korelasyon tablomuz incelendiğinde motor hacminin yakıt tüketimi üzerinde ciddi bir etkisi vardır.
+- The chart and correlation table below indicate that engine displacement has a significant effect on fuel consumption.
   
   ![](image/displacment_consumption_relation.png.png) 
-- Aşağıdaki grafik ve veri setindeki değerler incelendiğinde, yakıt tüketim değerleri en yüksek olan araç markası **Chevrolet** iken en düşük olanı **Volkswagen** marka araçlardır.
+- The chart below reveals that **Chevrolet** has the highest fuel consumption, while **Volkswagen** has the lowest.
   
   ![](image/Fuel_consumption_by_brandss.png) 
-- Aşağıdaki grafik ve korelasyon tablomuz incelendiğinde beygir gücünün yakıt tüketimi üzerinde ciddi bir etkisi vardır.
+- The chart and correlation table below show that horsepower has a significant impact on fuel consumption.
   
   ![](image/horse_power_consumption_relation.png) 
-- Aşağıdaki grafik ve veri setindeki değerler incelendiğinde en yüksek beygir gücüne sahip araçlar **Chrysler** markadır.
+- The chart and dataset values below indicate that **Chrysler** has the highest horsepower.
   
   ![](image/horsepower_by_brandss.png) 
-- Aşağıdaki grafik incelendiğinde, yıllar içerisinde beygir gücü azalma eğilimi göstermiştir.
+- The chart below shows that horsepower has decreased over the years.
   
   ![](image/horsepower_by_years.png) 
-- Aşağıdaki grafik incelendiğinde, ortalama yakıt tüketimi en yüksek olan menşei ülke **usa** iken en düşük olan ise **japan** olarak karşımıza çıkmıştır.
+- The chart below shows that the country of origin with the highest average fuel consumption is **USA**, while the lowest is **Japan**.
   
   ![](image/origin_consumption.png) 
-- Aşağıdaki grafik incelendiğinde ortalama motor hacmi en yüksek olan menşei ülke açık ara **usa** olarak gözükmektedir.
+- The chart below shows that the country of origin with the highest average engine displacement is **USA** by a wide margin.
   
   ![](image/origin_displacement.png) 
-- Aşağıdaki grafik ve korelasyon tablomuz incelendiğinde, yakıt tüketimi üzerindeki en yüksek etkiyi gösteren değişken **weight(kg)** değişkenidir.
+- The chart and correlation table below reveal that **weight(kg)** has the highest impact on fuel consumption.
   
   ![](image/weight_consumption_relation.png.png) 
   
-### Sonuç
-1. **Motor Hacmi ve Yakıt Tüketimi İlişkisi:** Motor hacmi arttıkça, genel olarak yakıt tüketiminin de arttığı görülmektedir. Daha büyük motor hacimlerine sahip araçların daha fazla yakıt tükettiği söylenebilir.
-2. **Beygir Gücü ve Yakıt Tüketimi İlişkisi:** Beygir gücü arttıkça, yakıt tüketiminin de arttığı gözlemlenmektedir. Daha güçlü motorlara sahip araçların daha fazla yakıt tükettiği anlaşılmaktadır.
-3. **Ağırlık ve Yakıt Tüketimi İlişkisi:** Araç ağırlığı arttıkça, yakıt tüketiminin de arttığı görülmektedir. Daha ağır araçların daha fazla yakıt tükettiği sonucuna varılabilir.
-4. **Menşe Ülkelere Göre Özellikler:** Menşe ülkelere göre incelendiğinde, ABD menşeli araçların daha yüksek motor hacmi, beygir gücü ve ağırlığa sahip olduğu, buna bağlı olarak da daha yüksek yakıt tükettiği gözlemlenmektedir. Avrupa ve Japonya menşeli araçlar ise daha düşük motor hacmi, beygir gücü ve ağırlığa sahip olup, daha düşük yakıt tüketimi göstermektedir.
-5. **Markalar Arası Farklılıklar:** Marka bazında incelendiğinde, bazı markaların (örneğin Chevrolet, Ford, Pontiac) diğer markalara göre daha yüksek motor hacmi, beygir gücü ve ağırlığa sahip olduğu, dolayısıyla daha yüksek yakıt tükettiği görülmektedir.
-6. **Yıllar İtibariyle Değişim:** Yıllar içerisinde, araçların beygir gücü ve yakıt tüketimlerinde azalma gözlemlenmektedir. Bu, teknolojik gelişmeler ve emisyon standartlarındaki iyileşmeler sayesinde daha verimli motorların üretilmesi dışında baz aldığımız 1970-1982 yılları arasındaki petrol krizleride beygir gücü ve yakıt tüketimlerinin düşmesi konusunda etkin olmuştur
-7. **Korelasyon Analizi:** Korelasyon matrisi incelendiğinde, motor hacmi, beygir gücü ve ağırlık gibi özelliklerin birbiriyle yüksek oranda ilişkili olduğu, ayrıca bu özelliklerin yakıt tüketimiyle de yüksek korelasyona sahip olduğu görülmektedir.
-   
-**Özetle**, veri setindeki grafiklerin analizi sonucunda, motor hacmi, beygir gücü ve ağırlık gibi araç özelliklerinin yakıt tüketimi üzerinde önemli bir etkiye sahip olduğu, ayrıca menşe ülke ve marka bazında da farklılıklar olduğu ortaya çıkmaktadır.
+### Conclusion
+1. **Engine Displacement and Fuel Consumption:** As engine displacement increases, fuel consumption generally increases. Cars with larger engine displacements tend to consume more fuel.
+2. **Horsepower and Fuel Consumption:** As horsepower increases, fuel consumption also tends to increase. More powerful cars tend to consume more fuel.
+3. **Weight and Fuel Consumption:** As the weight of a car increases, fuel consumption also increases. Heavier cars tend to consume more fuel.
+4. **Country of Origin Characteristics:** Cars from the USA tend to have higher engine displacement, horsepower, and weight, leading to higher fuel consumption. European and Japanese cars generally have lower engine displacement, horsepower, and weight, resulting in lower fuel consumption.
+5. **Brand Differences:** Some brands (e.g., Chevrolet, Ford, Pontiac) have higher engine displacement, horsepower, and weight compared to other brands, which results in higher fuel consumption.
+6. **Changes Over Time:** Over the years, a decrease in horsepower and fuel consumption has been observed. This can be attributed to technological advancements and improvements in emission standards, as well as the effects of the oil crises during 1970-1982, which led to more fuel-efficient engines.
+7. **Correlation Analysis:** The correlation matrix shows that attributes such as engine displacement, horsepower, and weight are highly correlated with each other, and they also exhibit a strong correlation with fuel consumption.
+
+**In summary**, the analysis of the dataset's charts reveals that car attributes like engine displacement, horsepower, and weight have a significant impact on fuel consumption, with noticeable differences across countries of origin and brands.
