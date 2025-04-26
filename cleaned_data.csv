@@ -157,7 +157,7 @@ chevrolet,bel air,15.7,8,5.7,145.0,2014,14.0,75,usa
 plymouth,grand fury,14.7,8,5.2,150.0,2040,14.5,75,usa
 ford,ltd,16.8,8,5.8,148.0,2112,13.5,75,usa
 buick,century,13.8,6,3.8,110.0,1772,21.0,75,usa
-chevroelt,chevelle malibu,14.7,6,4.1,105.0,1768,18.5,75,usa
+chevrolet,chevelle malibu,14.7,6,4.1,105.0,1768,18.5,75,usa
 amc,matador,15.7,6,4.2,110.0,1692,19.0,75,usa
 plymouth,fury,13.1,6,3.7,95.0,1717,19.0,75,usa
 buick,skyhawk,11.2,6,3.8,110.0,1378,15.0,75,usa
@@ -193,7 +193,7 @@ ford,maverick,9.8,6,3.3,81.0,1366,17.6,76,usa
 amc,hornet,10.5,6,3.8,90.0,1399,17.6,76,usa
 chevrolet,chevette,8.1,4,1.4,52.0,923,22.2,76,usa
 chevrolet,woody,9.6,4,1.6,60.0,982,22.1,76,usa
-vw,rabbit,8.1,4,1.5,70.0,879,14.2,76,europe
+volkswagen,rabbit,8.1,4,1.5,70.0,879,14.2,76,europe
 honda,civic,7.1,4,1.5,53.0,814,17.4,76,japan
 dodge,aspen se,11.8,6,3.7,100.0,1656,17.7,76,usa
 ford,granada ghia,13.1,6,4.1,78.0,1621,21.0,76,usa
@@ -289,11 +289,11 @@ buick,estate wagon (sw),13.9,8,5.7,155.0,1978,14.9,79,usa
 ford,country squire (sw),15.2,8,5.8,142.0,1839,14.3,79,usa
 chevrolet,malibu classic (sw),12.3,8,4.4,125.0,1635,15.0,79,usa
 chrysler,lebaron town @ country (sw),12.7,8,5.9,150.0,1787,13.0,79,usa
-vw,rabbit custom,7.4,4,1.5,71.0,873,14.0,79,europe
+volkswagen,rabbit custom,7.4,4,1.5,71.0,873,14.0,79,europe
 mazda,glc deluxe,6.9,4,1.4,65.0,896,15.2,79,japan
 dodge,colt hatchback custom,6.6,4,1.6,80.0,869,14.4,79,usa
 amc,spirit dl,8.6,4,2.0,80.0,1211,15.0,79,usa
-mercedes,benz 300d,9.3,5,3.0,77.0,1601,20.1,79,europe
+mercedes-benz,benz 300d,9.3,5,3.0,77.0,1601,20.1,79,europe
 cadillac,eldorado,10.2,8,5.7,125.0,1769,17.4,79,usa
 peugeot,504,8.6,4,2.3,71.0,1447,24.8,79,europe
 oldsmobile,cutlass salon brougham,9.8,8,4.3,90.0,1551,22.2,79,usa
@@ -305,7 +305,7 @@ buick,skylark limited,8.3,4,2.5,90.0,1211,16.0,79,usa
 chevrolet,citation,8.2,6,2.8,115.0,1177,11.3,79,usa
 oldsmobile,omega brougham,8.8,6,2.8,115.0,1225,12.9,79,usa
 pontiac,phoenix,7.0,4,2.5,90.0,1159,13.2,79,usa
-vw,rabbit,5.7,4,1.6,76.0,973,14.7,80,europe
+volkswagen,rabbit,5.7,4,1.6,76.0,973,14.7,80,europe
 toyota,corolla tercel,6.2,4,1.5,60.0,893,18.8,80,japan
 chevrolet,chevette,7.3,4,1.6,70.0,962,15.5,80,usa
 datsun,310,6.3,4,1.4,65.0,916,16.4,80,japan
@@ -321,13 +321,13 @@ toyota,corolla,7.3,4,1.8,75.0,1027,15.2,80,japan
 mazda,glc,5.0,4,1.4,65.0,957,17.9,80,japan
 dodge,colt,8.4,4,2.6,105.0,1270,14.4,80,usa
 datsun,210,5.8,4,1.4,65.0,957,19.2,80,japan
-vw,rabbit c (diesel),5.3,4,1.5,48.0,946,21.7,80,europe
-vw,dasher (diesel),5.4,4,1.5,48.0,1059,23.7,80,europe
+volkswagen,rabbit c (diesel),5.3,4,1.5,48.0,946,21.7,80,europe
+volkswagen,dasher (diesel),5.4,4,1.5,48.0,1059,23.7,80,europe
 audi,5000s (diesel),6.5,5,2.0,67.0,1338,19.9,80,europe
 mercedes-benz,240d,7.8,4,2.4,67.0,1474,21.8,80,europe
 honda,civic 1500 gl,5.3,4,1.5,67.0,839,13.8,80,japan
 subaru,dl,7.0,4,1.6,67.0,973,18.0,80,japan
-vokswagen,rabbit,7.9,4,1.5,62.0,837,15.3,80,europe
+volkswagen,rabbit,7.9,4,1.5,62.0,837,15.3,80,europe
 datsun,280-zx,7.2,6,2.8,132.0,1320,11.4,80,japan
 mazda,rx-7 gs,9.9,3,1.1,100.0,1098,12.5,80,japan
 triumph,tr7 coupe,6.7,4,2.0,88.0,1134,15.1,80,europe
@@ -386,7 +386,7 @@ toyota,celica gt,7.4,4,2.4,96.0,1209,13.9,82,japan
 dodge,charger 2.2,6.5,4,2.2,84.0,1075,13.0,82,usa
 chevrolet,camaro,8.7,4,2.5,90.0,1338,17.3,82,usa
 ford,mustang gl,8.7,4,2.3,86.0,1266,15.6,82,usa
-vw,pickup,5.3,4,1.6,52.0,966,24.6,82,europe
+volkswagen,pickup,5.3,4,1.6,52.0,966,24.6,82,europe
 dodge,rampage,7.4,4,2.2,84.0,1041,11.6,82,usa
 ford,ranger,8.4,4,2.0,79.0,1191,18.6,82,usa
 chevrolet,s-10,7.6,4,2.0,82.0,1234,19.4,82,usa
