@@ -34,6 +34,7 @@ EDA involved exploring the car data to answer the following questions:
  ![](image/corr.png) 
 #### Findings
 - Upon reviewing the chart below, it can be seen that the majority of cars in the dataset are of the **Ford** brand.
+  
   ![](image/brand_piee.png) 
 
 - The chart below shows that fuel consumption values have decreased over the years.
